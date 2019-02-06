@@ -1,0 +1,27 @@
+:root {
+    --font-family: 'Montserrat', sans-serif;
+    --regular: 400;
+    --bold: 700;
+    
+    --primary-color: #ff0066;
+    --secondary-color: #333333;
+    --background-color: #fafafa;
+
+    --code-text-color: #f8f8f8;
+    --code-background-color: #424242;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+}
+
+body * {
+    box-sizing: inherit;
+}
